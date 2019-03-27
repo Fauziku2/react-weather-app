@@ -39,7 +39,6 @@ class App extends React.Component {
       country: undefined,
       humidity: undefined,
       description: undefined,
-      // error: data.message ? data.message : 'Please enter the value.'
       error: !city && !country ? 'Please enter the value.' : data.message
     })
   }
